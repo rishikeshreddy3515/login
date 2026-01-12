@@ -1,7 +1,7 @@
 
 
-  const username = document.getElementById("name").value;
-  const password = document.getElementById("pass").value;
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
 
   if (username === "" || password === "") {
     document.getElementById("message").innerText = "Please enter both fields";
