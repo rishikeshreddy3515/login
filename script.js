@@ -1,7 +1,7 @@
 
 
-  const username = document.getElementById("username").value;
-  const password = document.getElementById("password").value;
+  const username = document.getElementById("#username").value;
+  const password = document.getElementById("#password").value;
 
   if (username === "" || password === "") {
     document.getElementById("message").innerText = "Please enter both fields";
@@ -18,3 +18,4 @@
 document.getElementById("loginbtn").onclick = function () {
   window.location.href = "profile.html";
 };
+
