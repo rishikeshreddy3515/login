@@ -30,6 +30,15 @@
     margin-left: 12px;
     margin-right: auto;
 }
+.avatar{
+    height:100vh;
+    width:100vw;
+}
+body{
+    margin:0;
+}
+
+
 #name{
     font-family: 'montserrat', sans-serif;
     font-weight: 300;
