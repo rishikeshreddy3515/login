@@ -58,15 +58,12 @@ body{
 }
 
 
-.btn{
+.loginBtn{
     background-color: #3498db;
     border-radius: 5px;
     color: white;
 }
-a{
-    text-decoration: none;
-    
-}
+
 .btn{
     font-weight: bold;
     font-size: medium;
