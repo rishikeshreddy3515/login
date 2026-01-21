@@ -1,6 +1,6 @@
 
 
- document.getElementById("loginbtn").onclick = function () {
+ document.getElementById("loginBtn").onclick = function () {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
 
@@ -19,3 +19,4 @@
       "Incorrect username or password";
   }
 };
+
