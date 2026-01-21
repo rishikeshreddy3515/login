@@ -10,7 +10,7 @@
     return;
   }
 
-  if (username === "admin" && password === "1234") {
+  if (username === "admin@gmail.com" && password === "1234") {
     document.getElementById("message").innerText =
       "Login successful!";
     window.location.href = "profile.html";
@@ -19,4 +19,5 @@
       "Incorrect username or password";
   }
 };
+
 
