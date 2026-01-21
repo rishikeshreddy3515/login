@@ -58,18 +58,16 @@ body{
 }
 
 
-.loginBtn{
+#loginBtn{
     background-color: #3498db;
     border-radius: 5px;
     color: white;
-}
-
-.btn{
     font-weight: bold;
     font-size: medium;
     padding: 10px 20px;
-   
 }
+
+
 .loginbox:hover{
     transform: scale(1.05);
     box-shadow: 4px 4px 20px white;
